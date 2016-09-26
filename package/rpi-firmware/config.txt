@@ -11,7 +11,13 @@ kernel=zImage
 
 # Disable overscan assuming the display supports displaying the full resolution
 # If the text shown on the screen disappears off the edge, comment this out
-disable_overscan=1
+#disable_overscan=1
+
+# Make display smaller to stop text spilling off the screen
+overscan_left=20
+overscan_right=12
+overscan_top=10
+overscan_bottom=10
 
 # How much memory in MB to assign to the GPU on Pi models having
 # 256, 512 or 1024 MB total memory
